@@ -6,15 +6,15 @@
 }
 
 .about__container {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.5s ease forwards;
-  padding: 0 2rem;
-  background: var(--background-secondary);
+  background:var(--background-secondary);
   border-radius: 16px;
   padding: 2.5rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about__container p {
@@ -27,17 +27,6 @@
 .about__container p:last-child {
   margin-bottom: 0;
 }
-
-/* @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
 
 @media (max-width: 768px) {
   .about {

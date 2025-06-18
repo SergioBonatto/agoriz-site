@@ -31,7 +31,7 @@ const teamMembers: TeamMember[] = [
 
 export const Team: FC = () => {
   return (
-    <Section id="team" title="Core Team" className="team">
+    <Section id="team" title="Team" className="team">
       <div className="team__container">
         {teamMembers.map((member, index) => (
           <div key={index} className="team__member" data-testid="team-member">

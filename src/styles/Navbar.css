@@ -12,6 +12,8 @@
   box-sizing: border-box;
   left: 0;
   right: 0;
+  height: 80px;
+  top: 0;
 }
 
 .navbar-container {

@@ -1,43 +1,44 @@
-import { type FC, useState } from 'react'
+import { type FC, useState, useCallback } from 'react'
 import { ThemeToggle } from './ThemeToggle'
 import '../styles/Navbar.css'
 
 const Navbar: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const handleServiceClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const toggleMenu = useCallback(() => {
+    setIsMenuOpen(prev => !prev)
+  }, [])
+
+  const scrollToSection = useCallback((e: React.MouseEvent<HTMLElement>, sectionId: string) => {
     e.preventDefault()
-    const servicesSection = document.getElementById('services')
-    if (servicesSection) {
-      servicesSection.scrollIntoView({ behavior: 'smooth' })
+    const section = document.getElementById(sectionId)
+    if (section) {
+      const offset = 80
+      const elementPosition = section.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - offset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      })
       setIsMenuOpen(false)
     }
-  }
-
-  const handleLogoClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    e.preventDefault()
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-    setIsMenuOpen(false)
-  }
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+  }, [])
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
+        <div className="navbar-logo"  onClick={(e) => scrollToSection(e, 'home')} style={{ cursor: 'pointer' }}>
           <img src="/agoriz-logo.png" alt="Agoriz Logo" className="navbar-logo-image" />
           <h1>Agoriz</h1>
         </div>
 
         <div className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
-          <a href="#"         onClick={toggleMenu}>Home</a>
-          <a href="#about"    onClick={toggleMenu}>About</a>
-          <a href="#services" onClick={handleServiceClick}>Services</a>
-          <a href="#team"     onClick={toggleMenu}>Team</a>
-          <a href="#contact"  onClick={toggleMenu}>Contact</a>
+          <a href="#"          onClick={(e) => scrollToSection(e, 'home')}>Home</a>
+          <a href="#about"     onClick={(e) => scrollToSection(e, 'about')}>About</a>
+          <a href="#services"  onClick={(e) => scrollToSection(e, 'services')}>Services</a>
+          <a href="#team"      onClick={(e) => scrollToSection(e, 'team')}>Team</a>
+          <a href="#contact"   onClick={(e) => scrollToSection(e, 'contact')}>Contact</a>
           <ThemeToggle />
         </div>
 
