@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import './App.css'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Services />
         <Team />
+        <Contact />
       </main>
       <Footer />
     </ThemeProvider>
