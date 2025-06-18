@@ -20,7 +20,7 @@ export const Home: FC = () => {
   }, []);
 
   return (
-    <Section id="home" title=" " className="home">
+    <Section id="home" className="home">
       <div className="particles">
         {particles.map(particle => (
           <div

@@ -1,8 +1,9 @@
 import { type FC, type ReactNode } from 'react';
+import '../styles/Section.css';
 
 interface SectionProps {
   id?: string;
-  title: string;
+  title?: string;
   className?: string;
   children: ReactNode;
 }
@@ -10,7 +11,7 @@ interface SectionProps {
 export const Section: FC<SectionProps> = ({ id, title, className = '', children }) => {
   return (
     <section id={id} className={`section ${className}`}>
-      <h2 className="section__title">{title}</h2>
+      {title && <h2 className="section__title">{title}</h2>}
       {children}
     </section>
   );
