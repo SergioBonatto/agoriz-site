@@ -8,14 +8,13 @@
 .marketplace__header {
   text-align: center;
   margin-bottom: 3rem;
-  padding: 0 2rem;
-    background: var(--background-secondary);
-  border-radius: 16px;
   padding: 2.5rem;
+  background: var(--background-secondary);
+  border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  min-width: 82vw;
-  justify-self: center;
-
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .marketplace__header h1 {
@@ -50,6 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .marketplace__card h3 {
@@ -79,6 +79,8 @@
 
   .marketplace__header {
     padding: 0 1rem;
+    max-width: 90%;
+
   }
 
   .marketplace__header h1 {
