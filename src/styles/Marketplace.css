@@ -78,7 +78,7 @@
   }
 
   .marketplace__header {
-    padding: 0 1rem;
+    padding: 1 1rem;
     max-width: 90%;
 
   }
@@ -90,7 +90,7 @@
   .marketplace__grid {
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 1 1rem;
   }
 
   .marketplace__card {
