@@ -22,7 +22,8 @@ export const SEO: FC<SEOProps> = ({
 }) => {
   const baseUrl = 'https://agoriz.vercel.app';
   const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
-  const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
+  const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`; // Importante: usando fullImage
+
 
   useEffect(() => {
     // Primary Meta Tags
@@ -55,6 +56,10 @@ export const SEO: FC<SEOProps> = ({
     updateMetaTag('author', 'Agoriz');
     updateMetaTag('geo.region', 'US');
     updateMetaTag('geo.placename', 'Global');
+
+    updateMetaTag('og:image:width', '1200');
+    updateMetaTag('og:image:height', '630');
+    updateMetaTag('og:image:type', 'image/png');
 
     // Structured Data
     updateStructuredData();
