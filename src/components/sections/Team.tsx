@@ -1,6 +1,6 @@
 import { type FC } from 'react';
-import { Section } from './Section';
-import '../styles/Team.css';
+import { Section } from '../common/Section';
+import '../../styles/components/sections/Team.css';
 
 interface TeamMember {
   image: string;
@@ -13,7 +13,7 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
 
   {
-    image: './member2.jpg',
+    image: './images/team/member2.jpg',
     name: 'Gleizi Barbosa',
     role: 'Software Engineer',
     bio: `Software engineer passionate about low-level programming, compilers, and the open-source world.
@@ -21,7 +21,7 @@ const teamMembers: TeamMember[] = [
           Deeply interested in libertarian ethics, epistemology, and the philosophy of mind.`,
   },
   {
-    image: './member1.jpg',
+    image: './images/team/member1.jpg',
     name: 'Sergio Bonatto',
     role: 'Software Engineer',
     bio: `Software engineer focused on blockchain, decentralized systems, and smart contracts.
@@ -29,7 +29,7 @@ const teamMembers: TeamMember[] = [
           Believer in open markets, individual freedom, and the power of well-designed code to shape the world.`,
   },
   {
-    image: './Lulu.jpg',
+    image: './images/team/Lulu.jpg',
     name: 'Lulu',
     role: 'Cat Executive Officer (CEO)',
     bio: `Supreme leader of the household, expert in resource management (treats, toys, and sunny spots).

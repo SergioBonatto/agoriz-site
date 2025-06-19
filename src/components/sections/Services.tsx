@@ -1,6 +1,6 @@
 import { type FC } from 'react';
-import Marketplace from './Marketplace';
-import { Section } from './Section';
+import Marketplace from '../sections/Marketplace';
+import { Section } from '../common/Section';
 
 interface Service {
   id: string;

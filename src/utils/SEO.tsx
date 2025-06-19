@@ -15,7 +15,7 @@ export const SEO: FC<SEOProps> = ({
   title = 'Agoriz - Enterprise Web3 Payment Infrastructure | Crypto Payment Solutions',
   description = 'Transform your business with enterprise-grade Web3 payment infrastructure. Accept crypto payments with low fees, instant settlement, and plug-and-play integration. Battle-tested smart contracts for secure transactions.',
   keywords = 'web3 payment infrastructure, crypto payment processor, blockchain payment solutions, enterprise cryptocurrency payments, smart contract payments, DeFi payment gateway, crypto merchant services, Web3 payment API',
-  image = '/agoriz.png',
+  image = '/images/brand/agoriz.png',
   url = '/',
   type = 'website',
   twitterCard = 'summary_large_image'
@@ -99,9 +99,9 @@ export const SEO: FC<SEOProps> = ({
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'Customer Service',
-        email: 'hello@agoriz.com'
+        email: 'agoriz@proton.me'
       },
-      foundingDate: '2024',
+      foundingDate: '2025',
       industry: 'Financial Technology',
       keywords: 'Web3 payments, cryptocurrency payments, blockchain infrastructure, DeFi payments'
     };

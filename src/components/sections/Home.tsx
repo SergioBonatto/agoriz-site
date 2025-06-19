@@ -1,6 +1,6 @@
 import { type FC, useEffect, useState } from 'react';
-import { Section } from './Section';
-import '../styles/Home.css';
+import { Section } from '../common/Section';
+import '../../styles/components/sections/Home.css';
 
 export const Home: FC = () => {
   const [particles, setParticles] = useState<Array<{ id: number; left: string; top: string; animationDuration: string }>>([]);
