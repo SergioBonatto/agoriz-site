@@ -1,6 +1,6 @@
 import { type FC } from 'react';
-import { Section } from './Section';
-import '../styles/About.css';
+import { Section } from '../common/Section';
+import '../../styles/components/sections/About.css';
 
 export const About: FC = () => {
   return (

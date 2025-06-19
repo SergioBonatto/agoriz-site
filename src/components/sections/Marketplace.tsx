@@ -1,7 +1,7 @@
 import { type FC } from 'react';
-import { Section } from './Section';
-import { ComponentCard } from './ComponentCard';
-import '../styles/Marketplace.css';
+import { Section } from '../common/Section';
+import { ComponentCard } from '../common/ComponentCard';
+import '../../styles/components/sections/Marketplace.css';
 
 interface CoreComponent {
   title: string;

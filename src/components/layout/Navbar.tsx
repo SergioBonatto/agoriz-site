@@ -1,6 +1,6 @@
 import { type FC, useState, useCallback } from 'react'
 import { ThemeToggle } from './ThemeToggle'
-import '../styles/Navbar.css'
+import '../../styles/components/layout//Navbar.css'
 
 const Navbar: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -29,7 +29,7 @@ const Navbar: FC = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo"  onClick={(e) => scrollToSection(e, 'home')} style={{ cursor: 'pointer' }}>
-          <img src="/agoriz-logo.png" alt="Agoriz Logo" className="navbar-logo-image" />
+          <img src="/images/brand/agoriz-logo.png" alt="Agoriz Logo" className="navbar-logo-image" />
           <h1>Agoriz</h1>
         </div>
 

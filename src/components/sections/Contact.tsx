@@ -1,6 +1,6 @@
 import { type FC } from 'react';
-import { Section } from './Section';
-import '../styles/Contact.css';
+import { Section } from '../common/Section';
+import '../../styles/components/sections/Contact.css';
 
 // Define contact information as constants for easy maintenance
 const CONTACT_INFO = {

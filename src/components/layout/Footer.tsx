@@ -1,6 +1,5 @@
 import { type FC } from 'react';
-import '../styles/Footer.css';
-
+import '../../styles/components/layout/Footer.css';
 export const Footer: FC = () => {
   const currentYear = new Date().getFullYear();
 
@@ -10,7 +9,7 @@ export const Footer: FC = () => {
         <div className="footer__content">
           <div className="footer__brand">
             <img
-              src="/agoriz-logo.png"
+              src="/images/brand/agoriz-logo.png"
               alt="Agoriz Logo"
               className="footer__logo"
             />
