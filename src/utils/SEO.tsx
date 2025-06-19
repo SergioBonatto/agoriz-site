@@ -90,7 +90,7 @@ export const SEO: FC<SEOProps> = ({
       name: 'Agoriz',
       description: 'Enterprise-grade Web3 payment infrastructure for businesses',
       url: baseUrl,
-      logo: `${baseUrl}/logo.png`,
+      logo: `${baseUrl}/images/brand/agoriz.png`,
       sameAs: [
         'https://twitter.com/agorizbot',
         'https://linkedin.com/company/agoriz',
