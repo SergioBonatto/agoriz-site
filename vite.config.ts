@@ -3,8 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   server: {
-    historyApiFallback: true
+    port: 3000,
   },
-  base: '/'
+  preview: {
+    port: 3000
+  }
 })
