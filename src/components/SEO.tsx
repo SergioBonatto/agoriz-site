@@ -15,16 +15,15 @@ export const SEO: FC<SEOProps> = ({
   title = 'Agoriz - Enterprise Web3 Payment Infrastructure | Crypto Payment Solutions',
   description = 'Transform your business with enterprise-grade Web3 payment infrastructure. Accept crypto payments with 0.5% fees, instant settlement, and plug-and-play integration. Battle-tested smart contracts for secure transactions.',
   keywords = 'web3 payment infrastructure, crypto payment processor, blockchain payment solutions, enterprise cryptocurrency payments, smart contract payments, DeFi payment gateway, crypto merchant services, Web3 payment API',
-  image = './agoriz.png',
-  url = 'https://agoriz.vercel.app',
+  image = '/agoriz.png',
+  url = '/',
   type = 'website',
   twitterCard = 'summary_large_image'
 }) => {
-  const baseUrl = import.meta.env.VITE_BASE_URL || 'https://agoriz.vercel.app';
-  const fullUrl = `${baseUrl}${url}`;
-  const fullImage = `${baseUrl}${image}`;
+  const baseUrl = 'https://agoriz.vercel.app';
+  const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
+  const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
 
-  // Atualize o document diretamente
   useEffect(() => {
     // Primary Meta Tags
     document.title = title;
