@@ -25,6 +25,9 @@
   font-size: 1.125rem;
   line-height: 1.8;
   color: var(--text-primary);
+  text-align: justify;
+  max-width: 800px;
+
 }
 
 .about__container p:last-child {

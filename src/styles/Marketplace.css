@@ -17,8 +17,8 @@
   margin-right: auto;
 }
 
-.marketplace__header h1 {
-  font-size: 2.75rem;
+.marketplace__header h2 {
+  font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   color: var(--text-primary);
@@ -30,11 +30,14 @@
   color: var(--text-secondary);
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+
 }
 
 .marketplace__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
   padding: 0 2rem;
 }
@@ -63,6 +66,8 @@
   line-height: 1.6;
   color: var(--text-secondary);
   font-size: 1rem;
+  text-align: justify;
+
 }
 
 @media (max-width: 1024px) {

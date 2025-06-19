@@ -11,11 +11,15 @@ interface CoreComponent {
 const coreComponents: CoreComponent[] = [
   {
     title: 'Smart Contract Layer',
-    description: 'Modular Solidity-based smart contracts with multi-signature governance, automated fee handling, full auditability, and compliance tooling — designed to power secure, scalable crypto payments across any application.'
+    description: 'Enterprise-grade Solidity contracts powering secure, trustless payments. Features include atomic transactions, configurable fees, multi-signature governance, real-time auditability, and built-in risk controls — designed for easy integration into any business workflow.'
   },
   {
     title: 'Telegram Business Bot',
-    description: 'A production-ready Telegram bot with secure authentication, KYB/AML automation, and real-time transaction workflows — providing a seamless P2P marketplace experience for merchants and customers.'
+    description: 'Production-ready Telegram bot offering instant onboarding, automated KYB/AML, escrowed P2P transactions, and real-time payment notifications — built as a reference marketplace for demonstrating Agoriz Protocol capabilities.'
+  },
+  {
+    title: 'API & SDK Layer',
+    description: 'Developer-friendly REST API and TypeScript SDK providing seamless access to Agoriz smart contract services — enabling fast integration of crypto payments into websites, mobile apps, SaaS platforms, and marketplaces.'
   }
 ];
 
@@ -23,11 +27,11 @@ const Marketplace: FC = () => {
   return (
     <article className="marketplace">
       <header className="marketplace__header">
-        <h2>Agoriz Marketplace Bot</h2>
+        <h2>Agoriz Payments Infrastructure</h2>
         <p>
-          This bot demonstrates the capabilities of the Agoriz Protocol — combining Ethereum smart contracts with a secure Telegram interface.
-          The smart contract layer will be released as a standalone API, enabling any developer or business to integrate crypto payments and trustless transactions into their products.
-          The Telegram bot serves as a reference implementation built on top of this core service.
+          Agoriz builds next-generation crypto payment rails — combining battle-tested smart contracts with an easy-to-integrate API layer.
+          Our reference Telegram Bot demonstrates how businesses can quickly deploy secure, programmable payment flows on top of Ethereum or compatible chains.
+          Developers can use our API and SDK to integrate Agoriz Protocol into their own apps, services, and marketplaces — unlocking global payments with instant settlement and no chargebacks.
         </p>
       </header>
 
