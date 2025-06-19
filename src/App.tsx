@@ -19,6 +19,7 @@ function App() {
     <Router>
       <ThemeProvider>
         <SEO />
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={
