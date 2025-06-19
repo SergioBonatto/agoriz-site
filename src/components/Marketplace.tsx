@@ -29,9 +29,7 @@ const Marketplace: FC = () => {
       <header className="marketplace__header">
         <h2>Agoriz Payments Infrastructure</h2>
         <p>
-          Agoriz builds next-generation crypto payment rails — combining battle-tested smart contracts with an easy-to-integrate API layer.
-          Our reference Telegram Bot demonstrates how businesses can quickly deploy secure, programmable payment flows on top of Ethereum or compatible chains.
-          Developers can use our API and SDK to integrate Agoriz Protocol into their own apps, services, and marketplaces — unlocking global payments with instant settlement and no chargebacks.
+        Discover Agoriz: the future of crypto payments, engineered for seamless integration and unmatched reliability. Our robust smart contracts fuse with a developer-friendly API, empowering businesses to effortlessly craft secure, programmable payment solutions on Ethereum and compatible chains. With our Telegram Bot showcase, see firsthand how quickly you can deploy cutting-edge payment flows. Unlock global, instant-settlement transactions with zero chargebacks by integrating the Agoriz Protocol into your apps, services, or marketplaces—revolutionizing how you transact, worldwide.
         </p>
       </header>
 
