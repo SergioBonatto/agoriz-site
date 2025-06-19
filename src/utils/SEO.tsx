@@ -22,7 +22,7 @@ export const SEO: FC<SEOProps> = ({
 }) => {
   const baseUrl = 'https://agoriz.vercel.app';
   const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
-  const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`; // Importante: usando fullImage
+  const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
 
 
   useEffect(() => {
