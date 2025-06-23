@@ -58,6 +58,113 @@
   color: var(--text-primary);
 }
 
+
+.contact__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  width: 100%;
+}
+
+.contact__form-section,
+.contact__social-section {
+  padding: 2rem;
+}
+
+.contact__subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact__form-group label {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.contact__form-group input,
+.contact__form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--background-secondary);
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.contact__form-group input:focus,
+.contact__form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+.contact__submit-btn {
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-primary);
+  color: var(--background-primary);
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact__submit-btn:hover {
+  transform: translateY(-2px);
+}
+
+.contact__submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.contact__status {
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact__status--success {
+  background: rgba(0, 200, 0, 0.1);
+  color: #00c853;
+}
+
+.contact__status--error {
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff1744;
+}
+
+@media (max-width: 768px) {
+  .contact__content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact__form-section,
+  .contact__social-section {
+    padding: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .contact {
     padding: 2rem 0;
