@@ -14,10 +14,10 @@
 }
 
 .services__card {
-  background:var(--background-secondary);
+  /* background:var(--background-secondary); */
   border-radius: 16px;
   padding: 2.5rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); */
   transition: all 0.3s ease;
   height: 100%;
   display: flex;
@@ -27,7 +27,7 @@
 }
 
 .services__card:hover {
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15); */
   transform: translateY(-5px);
 }
 

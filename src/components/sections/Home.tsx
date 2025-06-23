@@ -36,7 +36,7 @@ export const Home: FC = () => {
       </div>
       <div className="home__container">
         <h1 className="home__banner">Agoriz</h1>
-        <h2 className="home__subtitle">Smart payments for smart businesses</h2>
+        <h2 className="home__subtitle">why aren’t you accepting crypto?</h2>
         <p className="home__description">
           Revolutionize your payment experience with seamless, secure, and scalable solutions.
         </p>

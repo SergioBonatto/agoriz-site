@@ -27,15 +27,15 @@ const teamMembers: TeamMember[] = [
     bio: `Software engineer focused on blockchain, decentralized systems, and smart contracts.
           Passionate about formal verification, functional programming, and the philosophy of technology.
           Believer in open markets, individual freedom, and the power of well-designed code to shape the world.`,
-  },
-  {
-    image: './images/team/Lulu.jpg',
-    name: 'Lulu',
-    role: 'Cat Executive Officer (CEO)',
-    bio: `Supreme leader of the household, expert in resource management (treats, toys, and sunny spots).
-          Strategic thinker in nap optimization and human behavior manipulation.
-          Passionate about soft blankets, cardboard boxes, and maintaining an aura of feline superiority.`,
   }
+  // {
+  //   image: './images/team/Lulu.jpg',
+  //   name: 'Lulu',
+  //   role: 'Cat Executive Officer (CEO)',
+  //   bio: `Supreme leader of the household, expert in resource management (treats, toys, and sunny spots).
+  //         Strategic thinker in nap optimization and human behavior manipulation.
+  //         Passionate about soft blankets, cardboard boxes, and maintaining an aura of feline superiority.`,
+  // }
 ];
 
 export const Team: FC = () => {

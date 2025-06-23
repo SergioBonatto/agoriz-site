@@ -4,9 +4,51 @@
   box-sizing: border-box;
 }
 
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('/Satoshi-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Variable.woff2') format('woff2');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-VariableItalic.woff2') format('woff2');
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('/Satoshi-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('/Satoshi-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Satoshi-Regular', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -65,6 +107,13 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: var(--text-primary);
+}
+
+h1, h2, h3,
+.navbar-logo h1,
+.footer__brand-name,
+.section__title {
+  font-family: 'Satoshi-Bold', sans-serif;
 }
 
 button {
