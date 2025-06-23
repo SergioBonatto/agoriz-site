@@ -39,10 +39,10 @@
 }
 
 .services__card p {
-  text-align: left;
-  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: var(--text-secondary);
-  font-size: 1rem;
   text-align: justify;
 
 }
