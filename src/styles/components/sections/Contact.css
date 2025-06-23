@@ -60,15 +60,18 @@
 
 
 .contact__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
   width: 100%;
+  max-width: 600px; /* Limita a largura para melhor legibilidade */
+  margin: 0 auto;
 }
 
 .contact__form-section,
 .contact__social-section {
   padding: 2rem;
+  width: 100%;
 }
 
 .contact__subtitle {
@@ -181,5 +184,10 @@
 
   .contact__item {
     font-size: 0.95rem;
+  }
+
+    .contact__form-section,
+  .contact__social-section {
+    padding: 1rem;
   }
 }
