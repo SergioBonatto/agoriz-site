@@ -2,13 +2,6 @@ import { type FC, useState } from 'react';
 import { Section } from '../common/Section';
 import '../../styles/components/sections/Contact.css';
 
-const CONTACT_INFO = {
-  xProfile: 'https://x.com/agorizbot',
-  linkedIn: 'https://www.linkedin.com/company/agoriz',
-  xHandle: '@agorizbot',
-  email: 'agoriz@proton.me'
-};
-
 export const Contact: FC = () => {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [formData, setFormData] = useState({
@@ -116,39 +109,11 @@ export const Contact: FC = () => {
             </form>
           </div>
 
-          <div className="contact__social-section">
+          {/* <div className="contact__social-section">
             <h3 className="contact__subtitle">Connect with us</h3>
             <ul className="contact__list">
-              {/* <li className="contact__item">
-                <a
-                  href={`mailto:${CONTACT_INFO.email}`}
-                  className="contact__link"
-                >
-                  <span className="contact__platform">Email</span>: {CONTACT_INFO.email}
-                </a>
-              </li> */}
-              <li className="contact__item">
-                <a
-                  href={CONTACT_INFO.xProfile}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="contact__link"
-                >
-                  <span className="contact__platform">X</span>: {CONTACT_INFO.xHandle}
-                </a>
-              </li>
-              <li className="contact__item">
-                <a
-                  href={CONTACT_INFO.linkedIn}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="contact__link"
-                >
-                  <span className="contact__platform">LinkedIn</span>: Agoriz
-                </a>
-              </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </Section>

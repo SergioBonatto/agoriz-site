@@ -68,7 +68,7 @@
 :root[data-theme="light"] {
   --text-primary: #000000;
   --text-secondary: rgba(0, 0, 0, 0.7);
-  --background-primary: #ffffff;
+  --background-primary: #FAFAFA;
   --background-secondary: #f9f9f9;
   --accent-primary: #ffc200;
   --accent-secondary: #ffd700;
@@ -79,7 +79,7 @@
   --text-primary: rgba(255, 255, 255, 0.87);
   --text-secondary: rgba(255, 255, 255, 0.6);
   --background-primary: #000000;
-  --background-secondary: #1a1a1a;
+  --background-secondary: #111214;
   --accent-primary: #ffc200;
   --accent-secondary: #ffd700;
   --border-color: rgba(255, 255, 255, 0.1);
