@@ -17,13 +17,13 @@ export const Footer: FC = () => {
   const currentYear = new Date().getFullYear();
   const SOCIAL_LINKS = [
     {
-      // name: 'X',
+      name: 'X',
       icon: <XIcon />,
       url: 'https://x.com/agorizbot',
       label: 'Follow us on X'
     },
     {
-      // name: 'LinkedIn',
+      name: 'LinkedIn',
       icon: <LinkedInIcon />,
       url: 'https://www.linkedin.com/company/agoriz',
       label: 'Connect with us on LinkedIn'
