@@ -12,14 +12,14 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
 
-  {
-    image: './images/team/member2.jpg',
-    name: 'Gleizi Barbosa',
-    role: 'Software Engineer',
-    bio: `Software engineer passionate about low-level programming, compilers, and the open-source world.
-          Explores decentralized, self-hosted technologies and loves understanding how things work under the hood.
-          Deeply interested in libertarian ethics, epistemology, and the philosophy of mind.`,
-  },
+  // {
+  //   image: './images/team/member2.jpg',
+  //   name: 'Gleizi Barbosa',
+  //   role: 'Software Engineer',
+  //   bio: `Software engineer passionate about low-level programming, compilers, and the open-source world.
+  //         Explores decentralized, self-hosted technologies and loves understanding how things work under the hood.
+  //         Deeply interested in libertarian ethics, epistemology, and the philosophy of mind.`,
+  // },
   {
     image: './images/team/member1.jpg',
     name: 'Sergio Bonatto',
