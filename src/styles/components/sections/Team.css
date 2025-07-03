@@ -7,7 +7,7 @@
 
 .team__container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   gap: 2rem;
   padding: 0 2rem;
   max-width: 1400px;
@@ -76,7 +76,7 @@
 
 @media (max-width: 1024px) {
   .team__container {
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 2rem;
     padding: 0 1.5rem;
   }
