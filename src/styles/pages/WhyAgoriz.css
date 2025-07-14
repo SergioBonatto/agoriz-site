@@ -19,11 +19,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  /* background: linear-gradient(180deg,
-    var(--background-secondary) 0%,
-    var(--background-primary) 100%); */
-  /* opacity: 0.5; */
-  /* z-index: 1; */
+
 }
 
 .why-hero__container {
@@ -40,12 +36,12 @@
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   color: var(--text-primary);
-  line-height: 1.1;
+  line-height: 1;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  /* background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .why-hero__intro {

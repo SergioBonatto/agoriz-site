@@ -102,7 +102,7 @@ body {
   overflow-x: hidden;
   background-color: var(--background-primary);
   color: var(--text-primary);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 h1 {
