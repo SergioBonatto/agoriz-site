@@ -43,9 +43,9 @@ const coreComponents: CoreComponent[] = [
 
 const Services: FC = () => {
   return (
-    <article id="services" className="services">
+    <article id="services" title="Services" className="services">
       <header className="services__header">
-        <h2>Agoriz Payments Infrastructure</h2>
+        <h2>Services</h2>
         <p>
         Discover Agoriz: the future of crypto payments, engineered for seamless integration and unmatched reliability. Our robust smart contracts fuse with a developer-friendly API, empowering businesses to effortlessly craft secure, programmable payment solutions on Ethereum and compatible chains. With our Telegram Bot showcase, see firsthand how quickly you can deploy cutting-edge payment flows. Unlock global, instant-settlement transactions with zero chargebacks by integrating the Agoriz Protocol into your apps, services, or marketplaces—revolutionizing how you transact, worldwide.
         </p>
