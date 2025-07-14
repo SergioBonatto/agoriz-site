@@ -69,7 +69,7 @@
   --text-primary: #000000;
   --text-secondary: rgba(0, 0, 0, 0.7);
   --background-primary: #FAFAFA;
-  --background-secondary: #f9f9f9;
+  --background-secondary: #f3f3f3;
   --accent-primary: #ffc200;
   --accent-secondary: #ffd700;
   --border-color: rgba(0, 0, 0, 0.1);
@@ -147,9 +147,10 @@ button:focus-visible {
     color: var(--accent-primary);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--background-secondary);
   }
 }
+
 
 @media (prefers-reduced-motion: reduce) {
   :root {

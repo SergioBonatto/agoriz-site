@@ -16,7 +16,6 @@ const Navbar: FC = () => {
 
     if (window.location.pathname !== '/') {
       navigate('/')
-      // Aguarda a navegação e então rola para a seção
       setTimeout(() => {
         const section = document.getElementById(sectionId)
         if (section) {

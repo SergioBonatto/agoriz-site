@@ -43,7 +43,7 @@ const coreComponents: CoreComponent[] = [
 
 const Services: FC = () => {
   return (
-    <article className="services">
+    <article id="services" className="services">
       <header className="services__header">
         <h2>Agoriz Payments Infrastructure</h2>
         <p>
