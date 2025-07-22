@@ -4,7 +4,7 @@ import Navbar from './components/layout/Navbar'
 import Home from './components/sections/Home'
 import About from './components/sections/About'
 import Services from './components/sections/Services'
-import Team from './components/sections/Team'
+// import Team from './components/sections/Team'
 import Footer from './components/layout/Footer'
 import Contact from './components/sections/Contact'
 import WhyAgoriz from './pages/WhyAgoriz'
@@ -27,7 +27,7 @@ function App() {
               <Home />
               <About />
               <Services />
-              <Team />
+              {/* <Team /> */}
               <Contact />
             </main>
           } />

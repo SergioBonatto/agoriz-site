@@ -13,14 +13,6 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
 
   {
-    image: './images/team/member2.jpg',
-    name: 'Gleizi Barbosa',
-    role: 'Software Engineer',
-    bio: `Software engineer passionate about low-level programming, compilers, and the open-source world.
-          Explores decentralized, self-hosted technologies and loves understanding how things work under the hood.
-          Deeply interested in libertarian ethics, epistemology, and the philosophy of mind.`,
-  },
-  {
     image: './images/team/member1.jpg',
     name: 'Sergio Bonatto',
     role: 'Software Engineer',
@@ -28,14 +20,6 @@ const teamMembers: TeamMember[] = [
           Passionate about formal verification, functional programming, and the philosophy of technology.
           Believer in open markets, individual freedom, and the power of well-designed code to shape the world.`,
   }
-  // {
-  //   image: './images/team/Lulu.jpg',
-  //   name: 'Lulu',
-  //   role: 'Cat Executive Officer (CEO)',
-  //   bio: `Supreme leader of the household, expert in resource management (treats, toys, and sunny spots).
-  //         Strategic thinker in nap optimization and human behavior manipulation.
-  //         Passionate about soft blankets, cardboard boxes, and maintaining an aura of feline superiority.`,
-  // }
 ];
 
 export const Team: FC = () => {

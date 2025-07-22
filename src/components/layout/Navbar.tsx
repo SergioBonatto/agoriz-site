@@ -58,7 +58,7 @@ const Navbar: FC = () => {
           <a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a>
           <Link to="/why" onClick={() => setIsMenuOpen(false)}>Why Agoriz?</Link>
           <a href="#services" onClick={(e) => scrollToSection(e, 'services')}>Services</a>
-          <a href="#team" onClick={(e) => scrollToSection(e, 'team')}>Team</a>
+          {/* <a href="#team" onClick={(e) => scrollToSection(e, 'team')}>Team</a> */}
           <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact</a>
           <ThemeToggle />
         </div>
