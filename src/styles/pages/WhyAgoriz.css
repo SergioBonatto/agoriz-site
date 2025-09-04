@@ -1,3 +1,8 @@
+
+.why-note--black {
+  font-family: 'Satoshi-Black', 'Satoshi', sans-serif;
+  font-weight: 900;
+}
 .why-page {
   margin-top: 80px;
   background: var(--background-primary);
@@ -6,7 +11,7 @@
 }
 
 .why-hero {
-  padding: 6rem 0 4rem;
+  padding: 5rem 0 0 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -38,10 +43,6 @@
   color: var(--text-primary);
   line-height: 1;
   letter-spacing: -0.02em;
-  /* background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 .why-hero__intro {
@@ -87,6 +88,15 @@
   color: var(--accent-primary);
 }
 
+.why-note {
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.why-note--strong {
+  font-weight: 900;
+}
 
 .why-content__container {
   max-width: 800px;

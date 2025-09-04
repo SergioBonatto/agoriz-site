@@ -19,99 +19,95 @@ export const WhyAgoriz: FC = () => {
           <div className="why-hero__container">
             <h1>Why Agoriz?</h1>
             <p className="why-hero__intro">
-              The world has changed — but payments haven’t.
+              The crypto payment revolution is here. But most solutions force you to choose: either trust someone else with your money, or build complex systems yourself.
             </p>
             <p>
-              For decades, money has gone increasingly digital. Today, you can pay for almost anything with an app on your phone.
-              But behind that sleek interface, the system remains the same: closed, controlled by banks, subject to governments and middlemen.
-            </p>
-            <p>
-              Every payment flows through layers of intermediaries — each taking a cut, each setting the rules, and sometimes deciding whether or not you can even get paid.
-              That’s a problem. And it’s getting worse.
-            </p>
-            <p>In recent years, we’ve seen:</p>
-            <ul>
-              <li>Accounts frozen for political reasons</li>
-              <li>Transfers blocked without explanation</li>
-              <li>Rising fees</li>
-              <li>Financial censorship</li>
-              <li>Inflation eroding the value of money</li>
-            </ul>
-            <p>
-              That’s why Bitcoin was created: a digital form of money — peer to peer, free from control, immune to censorship.
-              But Bitcoin solves money.
-              It didn’t yet solve payments.
-              How do businesses and creators actually use this new money in everyday life?
-            </p>
-            <p>
-              That’s why we built Agoriz.
+                  <b className='why-note why-note--black'>
+                    Agoriz changes the game
+                  </b>
             </p>
           </div>
         </section>
 
         <section className="why-content">
           <div className="why-content__container">
-            <h2>What is Agoriz?</h2>
+            <h2>Own Your Money, Control Your Destiny</h2>
             <p>
-              Agoriz is the infrastructure that turns the promise of crypto into real-world tools for businesses and creators.
+              <b className="why-note">True zero-custody. </b> Your funds never leave your wallet until the moment you decide to send them. No frozen accounts, no "maintenance windows," no "sorry, we got hacked." Just pure, unstoppable financial sovereignty.
             </p>
-            <p>Instead of relying on banks or traditional processors, you can:</p>
-            <ul>
-              <li>Accept crypto payments directly to your wallet — no intermediaries</li>
-              <li>Automate payment contracts</li>
-              <li>Run marketplaces and subscription platforms</li>
-              <li>Manage royalties and revenue splits — all in code, no permissions needed</li>
-              <li>Eliminate fees, delays, and red tape</li>
-            </ul>
             <p>
-              No banks. No custody. No censorship.
+              Most "non-custodial" solutions still hold your money during processing. We don't. Ever.
             </p>
 
-            <h2>Why does this matter — and why now?</h2>
+            <h2>Built to Beat the Bots</h2>
             <p>
-              Trust in old systems is fading fast.
-              High inflation, transfer limits, frozen accounts — these are no longer rare.
-            </p>
-            <p>
-              You work, you build, you create — yet you still rely on institutions just to access what’s already yours.
-              That’s no longer acceptable.
-            </p>
-            <p>
-              The new internet of money already exists.
-              It’s open. It’s global. It knows no borders.
-            </p>
-            <p>
-              But businesses need a simple, safe way to use it.
-              That’s where we come in.
-            </p>
-
-            <h2>What does this change for you?</h2>
-            <p>
-              If you run a business, an online store, a service, or a creative project, with Agoriz you can:
+              While others talk about security, we engineered it:
             </p>
             <ul>
-              <li>Accept payments globally, 24/7</li>
-              <li>Get paid without needing a bank</li>
-              <li>Ensure your income can’t be frozen or censored</li>
-              <li>Automate your revenue flows</li>
-              <li>Tap into the new digital economy — where you control your own money</li>
+              <li><b className='why-note'>Dynamic MEV protection</b> that adapts to stop front-running attacks </li>
+              <li><b className='why-note'>Circuit breaker</b>  that pause suspicious activity in real-time</li>
+              <li><b className='why-note'>Smart rate limiting</b> that learns your patterns and blocks abuse</li>
+              <li><b className='why-note'>Commit-reveal schemes</b> for high-value transactions</li>
             </ul>
             <p>
-              And you don’t need to be a blockchain expert — the tools are ready, the tech is simple.
+              Your payments are protected by the same tech that secures DeFi protocols handling billions.
             </p>
 
-            <h2>At the end of the day, it’s simple:</h2>
-            <p>Your money should be yours.</p>
-            <p>Your payments should reach you.</p>
-            <p>Your business should run without needing anyone’s permission.</p>
+            <h2>Fees That Make Sense</h2>
             <p>
-              If Bitcoin solved the problem of money, Agoriz solves the problem of payments, contracts, and the infrastructure driving this new economy.
+              Our algorithm watches how you use the system. Regular merchants doing honest business? You pay less. Heavy users pushing the network to its limits? They cover the cost of keeping everyone secure.
+            </p>
+            <p>
+              Fair pricing isn't just good business — it's how we keep Agoriz sustainable and attack-resistant.
             </p>
 
+            <h2>Ready for Real Business</h2>
+            <p>
+              <b className='why-note'>ETH and USDT support.</b> Multi-chain deployment. EIP-712 signatures for gasless operations. Emergency functions protected by timelock. Events that integrate seamlessly with any monitoring system.
+            </p>
+            <p>
+              This isn't a weekend project — it's enterprise-grade infrastructure that happens to be radically simple to use.
+            </p>
+
+            <h2>From Marketplace to Multi-Chain</h2>
+            <p>
+              Started for P2P marketplaces, but built for everything:
+            </p>
+            <ul>
+              <li><b className='why-note'>Service platforms</b> that need escrow without custody risk</li>
+              <li><b className='why-note'>DeFi protocols</b> requiring payment rails that won't break</li>
+              <li><b className='why-note'>Traditional businesses</b>  ready to accept crypto the right way</li>
+              <li><b className='why-note'>Developers</b> who want payment infrastructure that just works</li>
+            </ul>
+
+            <h2>The Future Is Modular</h2>
+            <p>
+              Our core never changes — it's lean, auditable, and battle-tested. But extensions let us adapt to any token, any chain, any regulatory requirement.
+            </p>
+
+            <p>
+              <b className='why-note'>Built once. Deployed everywhere.</b>
+            </p>
+
+            <h2> Ready to Build the Future? </h2>
+            <p>
+              Crypto payments shouldn't be scary, expensive, or risky. They should be inevitable. Agoriz makes the inevitable simple.
+            </p>
+
+            <p>
+              <b className='why-note'>Born in the spirit of ancient agoras — where anyone could trade freely — Agoriz brings that openness to digital payments. No gatekeepers. No compromises. Just the future of money, available today</b>
+            </p>
+
+            <h2>Start Building</h2>
+            <p>
+              <ul>
+                <li> <b className='why-note'>For Developers</b>  Integrate with our smart contracts today. APIs and SDKs coming soon.</li>
+                <li> <b className='why-note'>For Merchants:</b> Accept USDT and ETH payments without changing how you work.</li>
+                <li> <b className='why-note'>For Everyone</b>Experience crypto payments the way they should be — secure, fair, and yours.</li>
+              </ul>
+            </p>
             <p className="why-cta">
-              The new internet of money has no middlemen.
-              With Agoriz, neither does your business.
-              Start today.
+              Ready to get started? The protocol is live and waiting for you.
             </p>
           </div>
         </section>
