@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 2rem 0 0 0;
   justify-self: center;
-  background: linear-gradient(180deg, var(--background-primary) 0%, var(--background-secondary) 100%);
+  background:var(--background-primary);
   position: relative;
 }
 
@@ -21,6 +21,11 @@
   opacity: 0;
   transform: translateY(40px);
   animation: about-fade-in 0.8s cubic-bezier(.4,0,.2,1) 0.2s forwards;
+}
+
+.note--black {
+  font-family: 'Satoshi-Black', 'Satoshi', sans-serif;
+  font-weight: 900;
 }
 
 @keyframes about-fade-in {

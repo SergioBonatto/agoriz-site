@@ -7,22 +7,22 @@ export const About: FC = () => {
     <Section id="about" title="About" className="about">
       <div className="about__container">
         <p>
-          Agoriz builds enterprise-grade infrastructure for the next generation of payments — secure, programmable, and borderless.
-          We are redefining how value moves across the internet by enabling businesses and developers to easily integrate crypto payments into any product or platform.
+          <strong className="note--black">Crypto payments are broken.</strong> Most solutions force an impossible choice: trust someone else with your money, or build everything from scratch. We built Agoriz because there had to be a better way.
         </p>
         <p>
-          Inspired by the spirit of the ancient agoras — centers of commerce, community, and open exchange — we envision a financial ecosystem where transactions are decentralized, transparent, and free from unnecessary friction.
+          Agoriz is a zero-custody DeFi protocol that processes payments without ever touching your funds. No frozen accounts, no "we got hacked" emails, no bureaucracy. Just direct peer-to-peer transactions with enterprise-grade protection against bots, MEV attacks, and abuse.
         </p>
         <p>
-          Our team brings deep expertise in blockchain engineering, digital security, and product design.
-          We focus on delivering robust technologies that empower businesses to operate globally with instant settlement, lower fees, and full control over their payment flows — without the risks of chargebacks, fraud, or outdated intermediaries.
+          What makes us different? We're obsessed with the details others ignore. Dynamic fee structures that reward honest merchants. Commit-reveal schemes that stop front-running. Circuit breakers that pause attacks in real-time. Modular architecture that adapts to any blockchain without compromising security.
         </p>
         <p>
-          Agoriz solutions are built with an unwavering commitment to transparency, interoperability, and user sovereignty.
-          We believe financial freedom is foundational to innovation, and we aim to contribute to an open economy where individuals and organizations can transact freely, securely, and at scale.
+          Our name comes from the ancient Greek <em className='note--black'>agora</em> — the marketplace where anyone could trade freely, without gatekeepers or intermediaries. That's exactly what we're building for digital payments: an open protocol where your money stays yours, your transactions can't be censored, and fair pricing rewards everyone who plays by the rules.
         </p>
         <p>
-          Our mission is simple: to make advanced payment technology accessible to all — from emerging startups to established enterprises — and to help build a more open and equitable digital economy.
+          Founded by blockchain engineers with battle-tested experience in formal verification and decentralized systems, we're not here to reinvent payments — we're here to fix them. Starting with P2P marketplaces, expanding to any business that wants to accept crypto the right way.
+        </p>
+        <p>
+          <strong className="note--black">The future of payments is programmable, permissionless, and yours to control.</strong> We're just building the infrastructure to make it inevitable.
         </p>
       </div>
     </Section>

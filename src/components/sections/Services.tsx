@@ -13,31 +13,31 @@ interface CoreComponent {
 
 const coreComponents: CoreComponent[] = [
   {
-    title: 'Core Payment Layer',
-    subtitle: 'ETH-Optimized Payment Gateway',
+    title: 'Zero-Custody Core',
+    subtitle: 'Your Money Never Leaves Your Control',
     description:
-      'Process ETH payments with maximal efficiency and robust security. Our core layer offers smart progressive fees that adjust to a user’s daily volume, built-in anti-MEV protection, and advanced security controls. Designed with a modular architecture for low gas costs and maximum reliability.',
-    noteSubtitle: 'Key features',
+      'Process ETH payments without ever giving up custody. Our core protocol includes dynamic fees that reward honest merchants (3-7%), real-time bot protection, and circuit breakers that pause attacks automatically. Built lean and auditable — because your security can\'t depend on complexity.',
+    noteSubtitle: 'What you get',
     note:
-      'Progressive volume-based fees, MEV protection, configurable daily limits, emergency pause capability, timelock for critical functions.'
+      'True zero-custody, anti-MEV protection, fair dynamic pricing, emergency controls, battle-tested security.'
   },
   {
-    title: 'Advanced Extensions Suite',
-    subtitle: 'Multi‑token Expansion & Advanced Functionality',
+    title: 'Multi-Token Power',
+    subtitle: 'ETH, USDT, and Beyond',
     description:
-      'Unlock the protocol’s full potential with native USDT support, batch processing, and EIP‑712 signatures. This extensible suite enables multi-asset payments with the same efficiency and security as the core—while maintaining flexibility for future integrations.',
-    noteSubtitle: 'Key features',
+      'Accept digital dollars (USDT) and ETH with the same security guarantees. Batch multiple payments to save gas, use gasless signatures for better UX, and scale across any EVM chain. One protocol, unlimited possibilities.',
+    noteSubtitle: 'What you get',
     note:
-      'USDT support, batch payments, EIP‑712, extensible architecture, progressive multi‑token fees.'
+      'USDT support, gas-efficient batching, EIP-712 signatures, multi-chain ready, extensible architecture.'
   },
   {
-    title: 'API & SDK Layer',
-    subtitle: 'Simplified Integration & Accelerated Development',
+    title: 'Developer Experience',
+    subtitle: 'From Concept to Live in Minutes',
     description:
-      'Full-featured TypeScript SDK with auto-generated typings via TypeChain for seamless contract integration. Monitor real-time events, calculate fees dynamically, and integrate decentralized payments into your app with just a few lines of code.',
+      'TypeScript SDK with full type safety, real-time event monitoring, and automatic fee calculations. Whether you\'re building a marketplace, service platform, or DeFi protocol — integrate Agoriz payments with just a few function calls.',
     noteSubtitle: 'Coming soon',
     note:
-      'Robust REST API and automated onboarding system for an even smoother developer experience.'
+      'REST APIs, auto-generated documentation, one-click deployment tools, and pre-built UI components.'
   }
 ];
 
@@ -45,13 +45,13 @@ const Services: FC = () => {
   return (
     <article id="services" title="Services" className="services">
       <header className="services__header">
-        <h2>Services</h2>
+        <h2>How Agoriz Works</h2>
         <p>
-        Discover Agoriz: the future of crypto payments, engineered for seamless integration and unmatched reliability. Our robust smart contracts fuse with a developer-friendly API, empowering businesses to effortlessly craft secure, programmable payment solutions on Ethereum and compatible chains. With our Telegram Bot showcase, see firsthand how quickly you can deploy cutting-edge payment flows. Unlock global, instant-settlement transactions with zero chargebacks by integrating the Agoriz Protocol into your apps, services, or marketplaces—revolutionizing how you transact, worldwide.
+          Stop choosing between security and simplicity. Agoriz gives you both: enterprise-grade payment infrastructure that's as easy to use as calling a smart contract. No custody risks, no bureaucracy, no compromise — just crypto payments that finally make sense for real businesses.
         </p>
       </header>
 
-      <Section title="Core Architecture" className="services__infrastructure">
+      <Section title="Built in Layers, Deployed as One" className="services__infrastructure">
         <div className="services__grid">
           {coreComponents.map((component, index) => (
             <ComponentCard
@@ -65,6 +65,15 @@ const Services: FC = () => {
           ))}
         </div>
       </Section>
+
+      <div className="services__cta">
+        <h3>Ready to Build?</h3>
+        <p>
+          The protocol is live on mainnet. Smart contracts are deployed. TypeScript types are ready.
+          <br />
+          <strong>Your next crypto payment integration starts here.</strong>
+        </p>
+      </div>
     </article>
   );
 };
